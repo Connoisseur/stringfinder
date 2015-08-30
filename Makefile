@@ -1,9 +1,10 @@
 CC=gcc
 CFLAGS=-c
 LDFLAGS=
-SOURCES=main.c
+SOURCES=main.c \
+		ternarysearchtree.c
 OBJECTS=$(SOURCES:.c=.o)
-EXECUTABLE=test
+EXECUTABLE=stringfinder
 
 all: $(SOURCES) $(EXECUTABLE)
     
